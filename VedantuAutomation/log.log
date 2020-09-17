@@ -1,0 +1,13 @@
+2020-09-18 01:11:53 INFO  LandingPage:47 - User is on landing page
+2020-09-18 01:11:53 INFO  LandingPage:50 - User has entered meeting room name
+2020-09-18 01:12:01 INFO  LandingPage:56 - User has selected allow access camera button
+2020-09-18 01:12:09 INFO  LandingPage:61 - User has selected allow access mic button
+2020-09-18 01:12:09 INFO  LandingPage:63 - User has selected join call button
+2020-09-18 01:12:09 INFO  ChatPage:28 - User is on chat room page
+2020-09-18 01:12:09 INFO  ChatPage:30 - User has entered his name
+2020-09-18 01:12:18 INFO  LandingPage:47 - User is on landing page
+2020-09-18 01:12:19 INFO  LandingPage:50 - User has entered meeting room name
+2020-09-18 01:12:26 INFO  LandingPage:56 - User has selected allow access camera button
+2020-09-18 01:12:34 INFO  LandingPage:61 - User has selected allow access mic button
+2020-09-18 01:12:34 INFO  LandingPage:63 - User has selected join call button
+2020-09-18 01:12:36 INFO  ChatPage:37 - Caller name is verified.

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54805" started-at="2020-09-17T19:41:43Z" finished-at="2020-09-17T19:42:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54805" started-at="2020-09-17T19:41:43Z" finished-at="2020-09-17T19:42:37Z">
+      <class name="com.qa.test.StartChat">
+        <test-method status="PASS" signature="validateStartChatFunctionality()[pri:0, instance:com.qa.test.StartChat@28d25987]" name="validateStartChatFunctionality" duration-ms="52967" started-at="2020-09-18T01:11:43Z" finished-at="2020-09-18T01:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStartChatFunctionality -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.StartChat@28d25987]" name="tearDown" is-config="true" duration-ms="1515" started-at="2020-09-18T01:12:36Z" finished-at="2020-09-18T01:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.test.StartChat -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
