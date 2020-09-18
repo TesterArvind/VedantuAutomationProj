@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
@@ -37,12 +39,14 @@ public class TestBase {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		String log4jpath= System.getProperty("user.dir")+"\\log4j.properties" ;
+		PropertyConfigurator.configure(log4jpath);
 	}
 
 
 	public  LandingPage  lauchFirstChromeBrowser(){
-		driver=initDriver();
-		return new LandingPage(driver);
+				driver=initDriver();
+            return new LandingPage(driver);
 	}
 	
 	public  LandingPage  lauchSecondChromeBrowser(){

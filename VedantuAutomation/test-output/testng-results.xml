@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="54805" started-at="2020-09-17T19:41:43Z" finished-at="2020-09-17T19:42:37Z">
+  <suite name="Default suite" duration-ms="55150" started-at="2020-09-18T16:22:22Z" finished-at="2020-09-18T16:23:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="54805" started-at="2020-09-17T19:41:43Z" finished-at="2020-09-17T19:42:37Z">
+    <test name="Default test" duration-ms="55150" started-at="2020-09-18T16:22:22Z" finished-at="2020-09-18T16:23:17Z">
       <class name="com.qa.test.StartChat">
-        <test-method status="PASS" signature="validateStartChatFunctionality()[pri:0, instance:com.qa.test.StartChat@28d25987]" name="validateStartChatFunctionality" duration-ms="52967" started-at="2020-09-18T01:11:43Z" finished-at="2020-09-18T01:12:36Z">
+        <test-method status="PASS" signature="validateStartChatFunctionality()[pri:0, instance:com.qa.test.StartChat@5ec0a365]" name="validateStartChatFunctionality" duration-ms="53231" started-at="2020-09-18T21:52:22Z" finished-at="2020-09-18T21:53:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateStartChatFunctionality -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.StartChat@28d25987]" name="tearDown" is-config="true" duration-ms="1515" started-at="2020-09-18T01:12:36Z" finished-at="2020-09-18T01:12:37Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.StartChat@5ec0a365]" name="tearDown" is-config="true" duration-ms="1640" started-at="2020-09-18T21:53:15Z" finished-at="2020-09-18T21:53:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -11,7 +11,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LandingPage {
+import com.qa.util.TestBase;
+
+public class LandingPage  {
 
 	Logger logger = LogManager.getLogger(LandingPage.class);
 	public WebDriver driver;
