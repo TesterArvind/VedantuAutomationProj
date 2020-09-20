@@ -1,20 +1,28 @@
 package com.qa.util;
 
 
+
+import java.io.File;
 import java.io.FileInputStream;
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
+import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterMethod;
-
 import com.qa.page.LandingPage;
+
+
 
 /**
  * This is a base util class for initialising the driver and property file.
@@ -24,7 +32,7 @@ import com.qa.page.LandingPage;
 
 
 public class TestBase {
-
+	Logger logger = LogManager.getLogger(TestBase.class);
 	public  WebDriver driver;
 	public  Properties prop ;
 	public WebDriver driver2;
@@ -73,5 +81,4 @@ public class TestBase {
 			driver.quit();
 		}
 	}
-	
 }

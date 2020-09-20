@@ -35,7 +35,7 @@ public class ExtentReportListner  implements ITestListener{
 
 	private static String getResultPath() {
 
-		resultpath = "test";//new SimpleDateFormat("yyyy-MM-dd hh-mm.ss").format(new Date());
+		resultpath = "extentreport";
 		if (!new File(resultpath).isDirectory()) {
 			new File(resultpath);
 		}
